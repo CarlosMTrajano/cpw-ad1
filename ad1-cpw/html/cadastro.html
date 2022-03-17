@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+
+</head>
+
+<body>
+    <header>
+
+        <IMG SRC="../img/PakiLogoTopo.png" class="imgLogo">
+
+
+
+        <address class="ender">Paço do Elefantinho, 123 <br>
+            Tel: (21) 4321-5678 <br>
+            <a href="mailto:contatos@paquiderne.com.br">contatos@paquiderme.com.br</a>
+        </address>
+
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="pakimemo.html"> INICIAL</a></li>
+            <li><a href="memorias.html"> MEMÓRIAS</a></li>
+            <li><a href="discos.html"> HDs / SSDs</a></li>
+            <li><a href="cadastro.html"> CADASTRO</a></li>
+            <li><a href="compras.html"> COMPRAS</a></li>
+        </ul>
+    </nav>
+
+    <section>
+
+        <div class="divsection">
+            <form method="post" action="mailto:ctrajano500@gmail.com" class="FormBox">
+                <h1>Cadastro</h1>
+
+                <fieldset class="FSLinhaInteira">
+
+
+                    <legend>Identificação</legend>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" class="InpBoxGnd">
+                    <br><br>
+
+                    <!-- <div class="divM">
+                <div><label for="senha">Senha:</label></div>
+                <div><input type="password" id="senha" name="senha" class="InpBoxMed"></div>
+                </div> -->
+
+                    <div class="ColEsq">
+                        <div><label for="senha">Senha:</label></div>
+                        <div><input type="password" id="senha" name="senha" class="InpBoxMed"></div>
+                    </div>
+
+                    <div class="ColDir">
+                        <div><label for="confirm">Confirmar:</label></div>
+                        <div><input type="password" id="confirm" name="confirm" class="InpBoxMed"></div>
+                    </div>
+
+
+                </fieldset>
+
+
+
+                <fieldset class="FSLinhaInteira">
+
+                    <legend>Dados Pessoais</legend>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" class="InpBoxGnd"><br class="LinhaForm">
+
+                    <p class="LinhaForm" id="linhaEnder"><label for="endereco">Endereço:</label>
+                        <input type="text" name="endereco" class="InpBoxGnd" id="inpEnder">
+                    </p><br><br>
+
+                    <!--   <div class="divM">-->
+                    <div class="ColDir">
+                        <div><label for="tel">Telefone:</label></div>
+                        <div><input type="tel" id="tel" name="tel" class="InpBoxMed"></div>
+                    </div>
+
+                    <div class="ColEsq">
+                        <div><label for="Celular">Celular:</label></div>
+                        <div><input type="tel" id="cel" name="cel" class="InpBoxMed"></div>
+                    </div>
+
+                    <fieldset class="FSColEsq">
+                        <legend>Nacimento:</legend>
+                        <!--<input type="date" id="data" name="data"> -->
+                        <input type="number" name="dia" min="1" max="31" class="numDD"> /
+                        <input type="number" name="mes" min="1" max="12" class="numDD"> /
+                        <input type="number" name="ano" min="1900" max="2050" class="numQD" value="2022">
+                    </fieldset>
+
+
+                    <fieldset class="FSColDir">
+                        <legend>Sexo:</legend>
+                        <input type="radio" name="Sexo" value="Mas">Mas
+                        <input type="radio" name="Sexo" value="Fem">Fem
+                        <input type="radio" name="Sexo" value="Outro">Outro
+                    </fieldset>
+
+                    <p align="right"><button type="submit" class="botoes">Cadastrar</button>
+                        <button type="reset" class="botoes">Limpar</button>
+                    </p>
+
+            </form>
+        </div>
+    </section>
+
+</html>

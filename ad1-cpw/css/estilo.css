@@ -1,0 +1,331 @@
+
+
+/* estilos para PakiMemo.html */
+
+header {
+    display: block;
+    margin-bottom: 1px;
+}
+
+nav {
+    display: block;
+    width: 18%;
+    float: left;
+    margin-right: 10px;
+    font-family: rubik, verdana, sans-serif;
+}
+
+section {
+    display: block;
+    width: 70%;
+    float: right;
+}
+
+body {
+    background-color:#116688;
+    color: #EEEE22;
+    font-family: lora, georgia,serif;
+    font-size: 16px;
+}
+
+ol, ul {
+    line-height: 200%;
+}
+
+nav ul {
+    color: #FFDD22;
+    line-height: 230%;
+    margin-top: 40px;
+    list-style: square;
+}
+
+A:link {
+    color: #FFFF22;
+    text-decoration: none;
+}
+A:visited {
+    color: #DDDD22;
+}
+
+.ender {
+    text-align: right;
+    font-size: 14px;
+    line-height: 140%;
+    float: right;
+}
+
+.imgLogo {
+    border-bottom: solid 3px;
+    margin-bottom: 4px;
+    padding-bottom: 5px;
+}
+
+.Logo {
+    display: block;
+    margin-left: 90px;
+   
+}
+
+.apres {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* estilos para pagina Memorias.html */
+
+.Titulo {
+    text-align: center;
+}
+
+.preco {
+    color: #EE0000;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.listaMemo {
+    width: 340px;
+    color: #AA0000;
+    background-color: #EEEEEE;
+    padding: 10px 10px 10px 50px;
+    border: solid 4px;
+    border-color: #000055;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: rubik,verdana,sans-serif;
+    list-style-type: decimal;
+    
+}
+
+.listaMemo ul {
+    color: #114455;
+    list-style-type: disc;
+}
+
+.listaMemo span {
+    color: #EE0000;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+/* estilos para pagina Disocs.html */
+
+.tabDisco {
+    border-collapse: collapse;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    color:#000066;
+    font-family: Rubik, verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+}
+
+.tabDisco td {
+    border: solid 3px;
+    border-color: #226699;
+    padding: 6px 12px 6px 12px;
+}
+
+.tabDisco th {
+    border: solid 3px;
+    border-color: #226699;
+    padding: 6px 12px 6px 12px;
+}
+
+.tabDisco .Titulo {
+    color:#FFFF00;
+    background-color:#229955;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+}
+
+.tabDisco .linTH {
+    color: #FFFFFF;
+    background-color: #22BB66;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.tabDisco .colTH {
+    color: #FFFFFF;
+    background-color: #2299DD;
+    text-align: left;
+}
+
+.tabDisco .imgDisco {
+    width: 70px;
+    height: 70px;
+}
+
+/* estilos para primeira pagina Cadastro.html */
+
+.LinhaForm {
+    margin: 0px;
+    height: 30px;
+    padding: 6px 3px 0px 3px;
+}
+
+.FormBox {
+    width: 520px;
+    background-color:#33BBBB;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    border: solid 3px;
+    border-color: #EEEE22;
+}
+
+.FSLinhaInteira {
+    color: white;
+    width: 490px;
+    text-align: left;
+}
+
+.FSColEsq {
+    width: 210px;
+    text-align: center;
+    float: left;
+}
+
+.FSColDir {
+    width: 210px;
+    text-align: center;
+    float: right;
+}
+
+.ColEsq {
+    width: 180px;
+    float: left;
+    display: block;
+}
+
+.ColDir {
+    width: 180px;
+    float: right;
+    display: block;
+}
+
+form label {
+    width: 80px;
+    float: left;
+    display: block;
+}
+
+
+.botoes {
+    text-align: right;
+    margin: 20px 10px 0px 10px;
+}
+
+.InpBoxGnd {
+    width: 384px;
+    float: right;
+    display: block;
+}
+
+.InpBoxMed {
+    width: 80px;
+    float: right;
+    display: block;
+}
+
+.numDD {
+    width: 35px;
+}
+
+.numQD {
+    width: 50px;
+}
+
+.divM {
+    display:block;
+    width: 230px;
+}
+
+div {
+    width: 87px;
+    display: inline-block;
+}
+
+.div2 {
+    width: 160px;
+    display: inline-block;
+    float: right;
+}
+
+.divsection {
+    display: block;
+    width: 90%;
+    float: right;
+
+}
+   
+/* identificadores */
+
+#inpEnder {
+    width: 394px;
+    height: 80px;
+}
+
+#linhaEnder {
+    height: 50px;
+}
+
+**button {*
+    float: right;
+    margin-top: 0px;
+}
+#loginCad {
+    width: 260px;
+}
+#idEmail {
+    width: 160px;
+}
+#senhaCad {
+    width: 180px;
+}
+#lisSelProd {
+    width: 370px;
+}
+#selProduto {
+    width: 75%;
+}
+#btnIncluir {
+    width: 70px;
+}
+#boxPedidos {
+    height: 100px;
+}
+#lisPedArea {
+    height: 90%;
+    width: 100%;
+}
+#fsBandeira {
+    width: 30px;
+    height: 80px;
+    text-align: left;
+}
+#numCartao {
+    width: 350px;
+    height: 35px;
+    padding: 10px 0px 0px 0px;
+}
+#valCartao {
+    width: 230px;
+    height: 35px;
+}
+#boxParcel {
+    width: 230px;
+    height: 30px;
+} 
+
+#FSsemBorda {
+    border: none;
+}
+

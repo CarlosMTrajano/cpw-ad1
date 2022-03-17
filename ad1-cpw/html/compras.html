@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compras</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+
+</head>
+
+<body>
+    <header>
+
+        <IMG SRC="../img/PakiLogoTopo.png" class="imgLogo">
+
+
+
+        <address class="ender">Paço do Elefantinho, 123 <br>
+            Tel: (21) 4321-5678 <br>
+            <a href="mailto:contatos@paquiderne.com.br">contatos@paquiderme.com.br</a>
+        </address>
+
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="pakimemo.html"> INICIAL</a></li>
+            <li><a href="memorias.html"> MEMÓRIAS</a></li>
+            <li><a href="discos.html"> HDs / SSDs</a></li>
+            <li><a href="cadastro.html"> CADASTRO</a></li>
+            <li><a href="compras.html"> COMPRAS</a></li>
+        </ul>
+    </nav>
+
+
+
+    <section>
+        <div class="divsection">
+            <form action="" class="FormBox">
+                <h1>Compras</h1>
+
+                <fieldset class="FSLinhaInteira">
+                    <legend>Identificação</legend>
+
+                    <div class="ColEsq" id="loginCad">
+
+                        <div><label for="email">Email:</label></div>
+                        <div class="div2"><input type="email" name="email" class="InpBoxGnd" id="idEmail"></div>
+
+                    </div>
+
+                    <div class="ColDir" id="senhaCad">
+
+                        <div><label for="senha">Senha:</label></div>
+                        <div><input type="password" name="senha" class="InpBoxMed"></div>
+
+                    </div>
+                    <br>
+
+                    <p><i> Se você ainda não tem cadastro <span><a href="cadastro.html">clique aqui</a></span></i></p>
+
+                </fieldset>
+
+                <fieldset class="FSLinhaInteira">
+                    <legend>Lista de Compras</legend>
+
+                    <div class="ColEsq" id="lisSelProd">
+                        <div><label for="produtos">Produtos:</label></div>
+
+                        <select name="produtos" id="selProduto">
+                            <div>
+                                <optgroup label="Memória DDR3">
+                                    <option value="Kingston4GB">Kingston 4 GB</option>
+                                    <option value="Samsung8GB ">Samsung 8 GB</option>
+                                </optgroup>
+                                <optgroup label="Memória DDR4">
+                                    <option value="KingstonFury8GB">Kingston Fury 8 GB</option>
+                                    <option value="CorsairVengeance8GB">Corsair Vengeance 8GB</option>
+                                </optgroup>
+
+                                <optgroup label="HD Sata III">
+                                    <option value="WesternDigital">Western Digital</option>
+                                    <option value="Seagate1Tb">Seagate 1 Tb</option>
+                                </optgroup>
+                                <optgroup label="SSD Sata III">
+                                    <option value="Samdisk480gb">Samdisk 480 gb</option>
+                                    <option value="Kingston960gb">Kingston 960 gb</option>
+                                </optgroup>
+                                <optgroup label="SSD M2">
+                                    <option value="Kingston500Gb">Kingston 500 Gb</option>
+                                    <option value="WesternDigital240Gb">Western Digital 240 Gb</option>
+                                </optgroup>
+                            </div>
+                        </select>
+                    </div>
+                    <!-- BOTÃO INCLUIR -->
+                    <button value="Incluir" class="ColDir" id="btnIncluir">Incluir</button><br><br>
+
+                    <p class="LinhaForm" id="boxPedidos"><input type="text" class="InpBoxGnd" id="lisPedArea"></p>
+
+                    <div class="ColDir">
+                        <div><label for="valor">Valor: R$</label></div>
+                        <div><input type="number" name="valor" class="InpBoxMed"></div>
+                    </div>
+
+                </fieldset>
+
+                <fieldset class="FSLinhaInteira">
+                    <legend>Dados do Cartão</legend>
+
+                    <fieldset class="FSColDir" id="fsBandeira">
+                        <legend>Bandeira:</legend>
+                        <input type="radio" name="bandeira" value="Visa">Visa
+                        <input type="radio" name="bandeira" value="Master">Master
+                        <input type="radio" name="bandeira" value="Elo">Elo
+                    </fieldset>
+
+                    <div class="ColEsq" id="numCartao">
+                        <label for="numcartao">Número:</label>
+                        <input type="number" name="num1" min="0" max="9999" class="numQD">
+                        <input type="number" name="num2" min="0" max="9999" class="numQD">
+                        <input type="number" name="num3" min="0" max="9999" class="numQD">
+                        <input type="number" name="num4" min="0" max="9999" class="numQD">
+                    </div>
+
+                    <div class="ColEsq" id="valCartao">
+                        <label for="validade">Validade:</label>
+                        <input type="number" name="mescartao" class="numDD" min="1" max="12" maxlength="2"> /
+                        <input type="number" name="anocartao" class="numQD" min="2000" max="2050" value="2020">
+                    </div>
+
+
+                    <div class="ColEsq" id="boxParcel">
+                        <label for="parcelas">Parcelas:</label>
+                        <input type="number" class="numDD" min="1" max="60"> x Sem Juros
+
+                    </div>
+                </fieldset>
+
+                <p align="right"><button type="submit">Confirmar</button>
+                    <button type="reset">Limpar</button>
+                </p>
+
+
+            </form>
+        </div>
+    </section>
+
+</html>
